@@ -109,7 +109,7 @@ body {
     }
 }
 </style>
-</head>
+
 <body>
     
 <div class="vertical-menu">
@@ -158,4 +158,3 @@ body {
 </div>
 
 </body>
-</html>
