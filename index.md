@@ -15,7 +15,7 @@ body {
 
 .header {
     padding: 20px;
-    text-align: left;
+    text-align: center;
     background: #ffffff;
     color: black;
 }
@@ -118,7 +118,7 @@ body {
 <body>
     
 <div class="vertical-menu">
-  <a href="#" class="active">Home</a>
+  <a href="#">Home</a>
   <a href="#">About</a>
   <a href="#">Blog</a>
   <a href="#">What we're reading/craving</a>
