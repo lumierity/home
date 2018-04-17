@@ -29,6 +29,24 @@ body {
     background-color: #333;
 }
 
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar a.right {
+    float: right;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
 .vertical-menu {
     width: 200px;
 }
@@ -104,14 +122,6 @@ body {
   <p>Local &  on-budget marketing solutions.</p>
 </div>
 
-<div class="vertical-menu">
-  <a href="#" class="active">Home</a>
-  <a href="#">About</a>
-  <a href="#">Blog</a>
-  <a href="#">What we're reading/craving</a>
-  <a href="#">Contact</a>
-</div>
-
 <div class="row">
   <div class="side">
       <h2>About Me</h2>
@@ -124,6 +134,15 @@ body {
       <div class="fakeimg" style="height:60px;">Image</div><br>
       <div class="fakeimg" style="height:60px;">Image</div>
   </div>
+    
+<div class="vertical-menu">
+  <a href="#" class="active">Home</a>
+  <a href="#">About</a>
+  <a href="#">Blog</a>
+  <a href="#">What we're reading/craving</a>
+  <a href="#">Contact</a>
+</div>
+
   <div class="main">
       <h2>TITLE HEADING</h2>
       <h5>Title description, Dec 7, 2017</h5>
