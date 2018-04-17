@@ -29,22 +29,25 @@ body {
     background-color: #333;
 }
 
-.navbar a {
-    float: left;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 20px;
-    text-decoration: none;
+.vertical-menu {
+    width: 200px;
 }
 
-.navbar a.right {
-    float: right;
-}
-
-.navbar a:hover {
-    background-color: #ddd;
+.vertical-menu a {
+    background-color: #eee; 
     color: black;
+    display: block; 
+    padding: 12px; 
+    text-decoration: none; 
+}
+
+.vertical-menu a:hover {
+    background-color: #ccc; 
+}
+
+.vertical-menu a.active {
+    background-color: #4CAF50;
+    color: white;
 }
 
 .row {  
