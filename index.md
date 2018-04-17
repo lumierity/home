@@ -52,10 +52,10 @@ body {
 }
 
 .vertical-menu a {
-    background-color: #eee; 
+    background-color: #fff; 
     color: black;
     display: block; 
-    padding: 12px; 
+    padding: 5px; 
     text-decoration: none; 
 }
 
@@ -64,8 +64,8 @@ body {
 }
 
 .vertical-menu a.active {
-    background-color: #4CAF50;
-    color: white;
+    background-color: #fff;
+    color: black;
 }
 
 .row {  
@@ -116,6 +116,14 @@ body {
 </style>
 </head>
 <body>
+    
+<div class="vertical-menu">
+  <a href="#" class="active">Home</a>
+  <a href="#">About</a>
+  <a href="#">Blog</a>
+  <a href="#">What we're reading/craving</a>
+  <a href="#">Contact</a>
+</div>
 
 <div class="header">
   <h1>Lumierity</h1>
@@ -134,16 +142,8 @@ body {
       <div class="fakeimg" style="height:60px;">Image</div><br>
       <div class="fakeimg" style="height:60px;">Image</div>
   </div>
-    
-<div class="vertical-menu">
-  <a href="#" class="active">Home</a>
-  <a href="#">About</a>
-  <a href="#">Blog</a>
-  <a href="#">What we're reading/craving</a>
-  <a href="#">Contact</a>
-</div>
-
-  <div class="main">
+ 
+ <div class="main">
       <h2>TITLE HEADING</h2>
       <h5>Title description, Dec 7, 2017</h5>
       <div class="fakeimg" style="height:200px;">Image</div>
