@@ -14,10 +14,10 @@ body {
 }
 
 .header {
-    padding: 80px;
-    text-align: center;
-    background: #1abc9c;
-    color: white;
+    padding: 20px;
+    text-align: left;
+    background: #ffffff;
+    color: black;
 }
 
 .header h1 {
@@ -101,11 +101,12 @@ body {
   <p>Local &  on-budget marketing solutions.</p>
 </div>
 
-<div class="navbar">
-  <a href="#">Link</a>
-  <a href="#">Link</a>
-  <a href="#">Link</a>
-  <a href="#" class="right">Link</a>
+<div class="vertical-menu">
+  <a href="#" class="active">Home</a>
+  <a href="#">About</a>
+  <a href="#">Blog</a>
+  <a href="#">What we're reading/craving</a>
+  <a href="#">Contact</a>
 </div>
 
 <div class="row">
